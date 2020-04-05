@@ -139,3 +139,6 @@ plt.legend()
 plt.title('Rose Plots')
 # -1 so 0 and 360 labels don't overlap
 ax1.set_xticks(np.linspace(0, 2.0*np.pi, 17)[:-1])
+
+
+np.arange()
