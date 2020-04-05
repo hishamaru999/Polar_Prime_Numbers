@@ -50,7 +50,7 @@ ax1.plot(theta, curve)
 
 
 
-# Print using 1420 primes
+# Print using 1420/1420
 n = 1420
 f = 6
 r = 5.0
@@ -64,5 +64,35 @@ ax1 = plt.subplot(111, polar=True)
 
 
 
+# Prime numbers 710/710
+n = 710
+f = 6
+r = 5.0
+
+# DATA
+theta = np.linspace(0, list_primes, n)
+curve = r*np.cos(f*theta)
+
+# Get an axes handle/object
+ax1 = plt.subplot(111, polar=True)
 
 
+#Plot the figure
+ax1.plot(theta, curve)
+
+
+# Print with 1420/710
+n = 710
+f = 6
+r = 5.0
+
+# DATA
+theta = np.linspace(0, more_primes, n)
+curve = r*np.cos(f*theta)
+
+# Get an axes handle/object
+ax1 = plt.subplot(111, polar=True)
+
+
+#Plot the figure
+ax1.plot(theta, curve)
